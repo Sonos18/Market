@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T14:38:17.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="HllytcnY562pIT7_YpNC" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T14:38:39.737Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="MYDaQKmFIC7t0faEGQcu" version="22.0.8" type="github">
   <diagram name="Page-1" id="wFv23azrO5TmY8dKMRDV">
     <mxGraphModel dx="880" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -426,7 +426,7 @@
           <mxGeometry x="590" y="380" width="340" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-139" value="1. Sau khi authen thành công client sẽ gửi request với token đã được xác thực lên server&lt;br style=&quot;font-size: 15px;&quot;&gt;2. Server xử lý và lấy thông tin xác thực thông qua token&lt;br style=&quot;font-size: 15px;&quot;&gt;3. Server chuyển thông tin xác thực xuống db.Sau khi db kiểm tra thành công sẽ trả lại userData cho Server&lt;br style=&quot;font-size: 15px;&quot;&gt;4. Server nhờ vào userData cấp quyền cho client có được phép thực hiện request hiện tại hay không&lt;br style=&quot;font-size: 15px;&quot;&gt;5. Nếu hợp lệ server đẩy request xuống db. &lt;br style=&quot;font-size: 15px;&quot;&gt;6. Db sẽ trả requestData về cho server sau khi xử lý xong&lt;br style=&quot;font-size: 15px;&quot;&gt;7. Server đẩy requestData lại cho client" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="295" y="1810" width="390" height="220" as="geometry" />
+          <mxGeometry x="560" y="1670" width="390" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
