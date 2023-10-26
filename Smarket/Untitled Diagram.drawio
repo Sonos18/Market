@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T14:19:59.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="sCi_2K27UNufYuH9HuPK" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T14:21:02.336Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="vdBjPzqGBhzaLUcca4M7" version="22.0.8" type="github">
   <diagram name="Page-1" id="wFv23azrO5TmY8dKMRDV">
     <mxGraphModel dx="880" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -422,8 +422,8 @@
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-137" value="4. Return userData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="570" y="190.00000000000006" as="geometry" />
         </mxCell>
-        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-138" value="1. User gửi Re" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="701" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-138" value="1. User gửi 1 request lên server kèm theo thông tin định danh&lt;br&gt;2." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="701" y="70" width="189" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
