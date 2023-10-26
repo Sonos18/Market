@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-26T13:15:05.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="GmAvxj-k5rS1_Kb8QNPs" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-26T13:19:00.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="lfVM7CfqUaE3xhhgld1M" version="22.0.8" type="github">
   <diagram name="Page-1" id="wFv23azrO5TmY8dKMRDV">
     <mxGraphModel dx="880" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-37" value="Request: user, key&lt;br&gt;Return: token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="390.00000000000006" y="-30" as="geometry" />
         </mxCell>
-        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Zo6Wz0A7gYt2dgUF0l2a-43" target="Zo6Wz0A7gYt2dgUF0l2a-51">
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="Zo6Wz0A7gYt2dgUF0l2a-43" target="Zo6Wz0A7gYt2dgUF0l2a-51">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="370" y="294" />
@@ -118,9 +118,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-42" value="Request:phoneNumber,password&lt;br&gt;Response:Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-41">
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-42" value="1.Request:phoneNumber,password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-41">
           <mxGeometry x="0.0796" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-43" value="Mobile client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
@@ -132,7 +132,7 @@
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="Zo6Wz0A7gYt2dgUF0l2a-51" target="Zo6Wz0A7gYt2dgUF0l2a-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-46" value="Request:phoneNumber,password&lt;br&gt;Return: user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-45">
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-46" value="Request:key&lt;br&gt;Return: user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-45">
           <mxGeometry x="0.1028" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -140,7 +140,7 @@
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="Zo6Wz0A7gYt2dgUF0l2a-51" target="Zo6Wz0A7gYt2dgUF0l2a-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-48" value="Request: phoneNumber, password&lt;br&gt;Return user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-47">
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-48" value="Request: phoneNumber, password&lt;br&gt;Return key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-47">
           <mxGeometry x="0.1275" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -151,6 +151,14 @@
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-50" value="Request: user, key&lt;br&gt;Return: token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zo6Wz0A7gYt2dgUF0l2a-49">
           <mxGeometry x="-0.1047" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zo6Wz0A7gYt2dgUF0l2a-51" target="Zo6Wz0A7gYt2dgUF0l2a-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="473" y="240" />
+              <mxPoint x="164" y="240" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-51" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
@@ -167,6 +175,11 @@
         </mxCell>
         <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-55" value="Tạo token với data user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="413.15" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zo6Wz0A7gYt2dgUF0l2a-57" value="Response:Token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="343.15" y="293.5" as="geometry">
+            <mxPoint x="-50" y="-54" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
