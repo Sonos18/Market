@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T03:23:02.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mXEZGn4M0ZYT2PKef0Qb" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T03:31:50.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="d1E4ZAQU9nWSh7IOrMba" version="22.0.8" type="github">
   <diagram name="Page-1" id="wFv23azrO5TmY8dKMRDV">
     <mxGraphModel dx="880" dy="1312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -511,7 +511,7 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-11" value="Xử lý Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-_hDlahEQz6odAi7vep3-11" value="Xử lý refresh token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="396.75" y="2060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-14" value="Tạo access token mới" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -531,7 +531,7 @@
         <mxCell id="-_hDlahEQz6odAi7vep3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-24" target="-_hDlahEQz6odAi7vep3-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-21" value="Request: Auth&lt;br&gt;Return: key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-20">
+        <mxCell id="-_hDlahEQz6odAi7vep3-21" value="Request: auth, keySecret&lt;br&gt;Return: key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-20">
           <mxGeometry x="0.1094" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -559,16 +559,16 @@
         <mxCell id="-_hDlahEQz6odAi7vep3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-17" target="-_hDlahEQz6odAi7vep3-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-29" value="request+auth&lt;br&gt;return: requestData, access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-28">
+        <mxCell id="-_hDlahEQz6odAi7vep3-29" value="Request: auth&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;return: access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-28">
           <mxGeometry x="-0.0701" y="2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-30" value="Xử lý Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-_hDlahEQz6odAi7vep3-30" value="Xử lý refresh token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="533.15" y="2590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-31" value="Tạo access token mới" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="2880" width="120" height="60" as="geometry" />
+          <mxGeometry x="390.77" y="2890" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-32" value="Mobile client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
           <mxGeometry x="101.67999999999999" y="3120" width="87" height="87" as="geometry" />
@@ -605,7 +605,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-50" value="9. return: access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-49">
+        <mxCell id="-_hDlahEQz6odAi7vep3-50" value="6. Response: access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-49">
           <mxGeometry x="0.0953" y="-4" relative="1" as="geometry">
             <mxPoint y="2" as="offset" />
           </mxGeometry>
@@ -632,7 +632,7 @@
         <mxCell id="-_hDlahEQz6odAi7vep3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.512;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-32" target="-_hDlahEQz6odAi7vep3-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-44" value="1. request+auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-43">
+        <mxCell id="-_hDlahEQz6odAi7vep3-44" value="1. Request: auth" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-43">
           <mxGeometry x="-0.0701" y="2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -640,13 +640,8 @@
         <mxCell id="-_hDlahEQz6odAi7vep3-45" value="Tạo access token mới" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="3290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-46" value="Xử lý Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-_hDlahEQz6odAi7vep3-46" value="Xử lý refresh token" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="3000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-48" value="7. request&lt;br&gt;Return: requestData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="670" y="3160" as="geometry">
-            <mxPoint x="7" y="9" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.976;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-46" target="-_hDlahEQz6odAi7vep3-39">
           <mxGeometry relative="1" as="geometry">
@@ -665,7 +660,7 @@
             <mxPoint x="1" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-70" value="1. Client gửi request + auth lên server&lt;br style=&quot;font-size: 15px;&quot;&gt;2. Server check auth nếu access token hết hạn sẽ sử dụng đên refresh token và và thông tin user sau từ refesh token và keysecret&lt;br style=&quot;font-size: 15px;&quot;&gt;3. Sau đó Server gửi dataUser và refresh xuống db để kiểm tra quyền&lt;br style=&quot;font-size: 15px;&quot;&gt;4. db xác nhận thành công chuyển về Server&lt;br style=&quot;font-size: 15px;&quot;&gt;5. Server dùng userData sau khi xác nhận và keysecret để tạo token mới&lt;br style=&quot;font-size: 15px;&quot;&gt;6. Tiếp đó Server bắt đầu xử lý yêu cầu của client gửi yêu cầu xuống db&lt;br style=&quot;font-size: 15px;&quot;&gt;7,8. Sau khi xử lý yêu cầu db trả về requestData cho server&lt;br style=&quot;font-size: 15px;&quot;&gt;9. Server trả lại access token và requestData lại cho client" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="-_hDlahEQz6odAi7vep3-70" value="1. Client gửi auth có refresh token cho server&amp;nbsp;&lt;br&gt;2. Server sử dụng refresh token và key secret để xác định userData&lt;br&gt;3. Sau đó gửi refresh token và userData xuống db&lt;br&gt;4. Db kiểm tra refresh token và userData để xác thực client&lt;br&gt;5.&amp;nbsp; Sau khi kiểm tra thành công Server tạo access token mới dựa vào userData đã được xác nhận và secret key&lt;br&gt;6. Server gửi lại client access token" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="260" y="3370" width="563.62" height="170" as="geometry" />
         </mxCell>
       </root>
