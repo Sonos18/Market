@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T02:51:05.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="8MG6IP8tAf_2LBt0k3Rh" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T02:52:54.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="mHGq6o404F_VUcwzR7iw" version="22.0.8" type="github">
   <diagram name="Page-1" id="wFv23azrO5TmY8dKMRDV">
     <mxGraphModel dx="880" dy="1278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -437,7 +437,7 @@
         <mxCell id="-_hDlahEQz6odAi7vep3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-3" target="-_hDlahEQz6odAi7vep3-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-10" value="Requset: refresh token, userData&lt;br&gt;Return: requestData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-8">
+        <mxCell id="-_hDlahEQz6odAi7vep3-10" value="request + auth&lt;br&gt;Return: requestData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-8">
           <mxGeometry x="-0.0597" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -445,16 +445,33 @@
         <mxCell id="-_hDlahEQz6odAi7vep3-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-3" target="-_hDlahEQz6odAi7vep3-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-_hDlahEQz6odAi7vep3-13" value="Request: Auth&lt;br&gt;Return: userData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-12">
+        <mxCell id="-_hDlahEQz6odAi7vep3-13" value="Request: Auth&lt;br&gt;Return: key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-12">
           <mxGeometry x="0.1094" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-3" target="-_hDlahEQz6odAi7vep3-14">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="457" y="2350" />
+              <mxPoint x="305" y="2350" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-16" value="Request:userData,keySecret&lt;br&gt;Return: access token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-15">
           <mxGeometry x="-0.2884" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_hDlahEQz6odAi7vep3-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="-_hDlahEQz6odAi7vep3-3" target="-_hDlahEQz6odAi7vep3-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="2320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-_hDlahEQz6odAi7vep3-63" value="request&lt;br&gt;Return: requestData" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-_hDlahEQz6odAi7vep3-62">
+          <mxGeometry x="0.4252" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -465,7 +482,7 @@
           <mxGeometry x="777.25" y="2240" width="71" height="86.58" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-5" value="Server&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="2310" width="60" height="30" as="geometry" />
+          <mxGeometry x="365" y="2297" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-6" value="Database&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="782.75" y="2320" width="60" height="30" as="geometry" />
@@ -482,7 +499,7 @@
           <mxGeometry x="396.75" y="2060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-14" value="Tạo access token mới" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="396.75" y="2420" width="120" height="60" as="geometry" />
+          <mxGeometry x="245" y="2410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-_hDlahEQz6odAi7vep3-17" value="Mobile client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.mobile_client;" vertex="1" parent="1">
           <mxGeometry x="104.02" y="2710" width="87" height="87" as="geometry" />
